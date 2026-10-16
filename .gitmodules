@@ -1,0 +1,9 @@
+[submodule "third_party/go-hashtable-shootout"]
+	path = third_party/go-hashtable-shootout
+	url = https://github.com/TKTHdev/go-hashtable-shootout
+[submodule "third_party/go-concurrent-map-bench"]
+	path = third_party/go-concurrent-map-bench
+	url = https://github.com/puzpuzpuz/go-concurrent-map-bench
+[submodule "third_party/go-map"]
+	path = third_party/go-map
+	url = https://github.com/TFMV/go-map

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>map-bench</title>
+<style>body{font:14px/1.4 ui-monospace,monospace;margin:16px}</style>
+</head>
+<body>
+<p id="status">готовлюсь...</p>
+<pre id="log"></pre>
+<script type="module">
+const q = new URLSearchParams(location.search);
+const sizes = (q.get("sizes") ?? "1000,10000,100000,1000000").split(",").map(Number);
+const reps = Number(q.get("reps") ?? 7);
+// браузерный таймер грубее, поэтому замер длиннее, чем в Node
+const minOps = Number(q.get("minops") ?? 5_000_000);
+const label = q.get("label") ?? navigator.userAgent;
+// V8 в Worker от запуска к запуску даёт на mixed разницу до 3 раз при стабильных повторах внутри,
+// поэтому каждая конфигурация запускается в нескольких свежих Worker; parse.py берёт медиану медиан
+const launches = Number(q.get("launches") ?? 5);
+const status = document.getElementById("status");
+const log = document.getElementById("log");
+
+const configs = [];
+for (let launch = 0; launch < launches; launch++)
+  for (const impl of ["js/Map", "js/Object"]) for (const keys of ["int", "str"]) configs.push({ impl, keys, launch });
+
+for (const [i, c] of configs.entries()) {
+  status.textContent = `${i + 1}/${configs.length}: ${c.impl} ${c.keys} запуск ${c.launch + 1}, crossOriginIsolated=${crossOriginIsolated}`;
+  await new Promise((resolve, reject) => {
+    const w = new Worker("./worker.mjs", { type: "module" });
+    w.onerror = (e) => { log.textContent += `ошибка: ${e.message}\n`; reject(e); };
+    w.onmessage = ({ data }) => {
+      if (data.done) { w.terminate(); resolve(); return; }
+      const r = { ...data.result, launch: c.launch };
+      log.textContent += `${r.impl} ${r.keys} n=${r.n} ${r.metric} ${r.median.toFixed(2)} ${r.unit}\n`;
+      fetch("/result", { method: "POST", body: JSON.stringify(r) });
+    };
+    w.postMessage({ impl: c.impl, keys: c.keys, sizes, reps, minOps, label });
+  });
+}
+status.textContent = "готово, вкладку можно закрыть";
+fetch("/done");
+</script>
+</body>
+</html>

@@ -1,0 +1,1010 @@
+[
+  {
+    "impl": "builtin",
+    "size": 10000,
+    "metric": "insert",
+    "value": 27.3708,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 5.5834,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 6.9166,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 10000,
+    "metric": "delete",
+    "value": 18.2958,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 14.8166,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 29.5624,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "chaining",
+    "size": 10000,
+    "metric": "insert",
+    "value": 17.9791,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 2.4292,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 2.9709,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 10000,
+    "metric": "delete",
+    "value": 4.0208,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 5.9917,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 37.1104,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "linear",
+    "size": 10000,
+    "metric": "insert",
+    "value": 25.3709,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 3.0292,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 4.3875,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 10000,
+    "metric": "delete",
+    "value": 3.7209,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 4.5667,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 27.8656,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "quadratic",
+    "size": 10000,
+    "metric": "insert",
+    "value": 13.95,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 2.7791,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 4.1959,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 10000,
+    "metric": "delete",
+    "value": 2.3417,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 6.8541,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 27.864,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "robinhood",
+    "size": 10000,
+    "metric": "insert",
+    "value": 17.3375,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 2.9292,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 3.075,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 10000,
+    "metric": "delete",
+    "value": 4.3125,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 4.3875,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 52.4336,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 10000,
+    "metric": "insert",
+    "value": 19.45,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 2.9709,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 3.1291,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 10000,
+    "metric": "delete",
+    "value": 3.1625,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 4.6542,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 39.328,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 10000,
+    "metric": "insert",
+    "value": 21.9792,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 2.55,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 10.1083,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 10000,
+    "metric": "delete",
+    "value": 2.6042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 3.3209,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 78.6496,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "swiss",
+    "size": 10000,
+    "metric": "insert",
+    "value": 13.0833,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 10000,
+    "metric": "lookup_hit",
+    "value": 2.3541,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 10000,
+    "metric": "lookup_miss",
+    "value": 2.675,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 10000,
+    "metric": "delete",
+    "value": 2.6916,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 10000,
+    "metric": "mixed",
+    "value": 3.5416,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 10000,
+    "metric": "mem_bytes_per_elem",
+    "value": 28.0672,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "builtin",
+    "size": 100000,
+    "metric": "insert",
+    "value": 27.72916,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 6.36917,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 14.36042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 100000,
+    "metric": "delete",
+    "value": 22.21625,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 21.14167,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 23.646,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "chaining",
+    "size": 100000,
+    "metric": "insert",
+    "value": 30.89958,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 6.67958,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 10.50167,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 100000,
+    "metric": "delete",
+    "value": 7.63042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 16.50542,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 34.53928,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "linear",
+    "size": 100000,
+    "metric": "insert",
+    "value": 44.51,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 4.6075,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 8.13042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 100000,
+    "metric": "delete",
+    "value": 4.84542,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 12.29541,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 44.56544,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "quadratic",
+    "size": 100000,
+    "metric": "insert",
+    "value": 43.98917,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 5.01375,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 8.34834,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 100000,
+    "metric": "delete",
+    "value": 4.6925,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 12.385,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 44.56544,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "robinhood",
+    "size": 100000,
+    "metric": "insert",
+    "value": 41.60292,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 14.33584,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 15.455,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 100000,
+    "metric": "delete",
+    "value": 15.87041,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 24.0825,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 41.94352,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 100000,
+    "metric": "insert",
+    "value": 33.18417,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 9.99208,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 11.01625,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 100000,
+    "metric": "delete",
+    "value": 10.9025,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 18.66709,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 31.45776,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 100000,
+    "metric": "insert",
+    "value": 35.10458,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 5.8425,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 11.98875,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 100000,
+    "metric": "delete",
+    "value": 6.42458,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 16.9475,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 62.9152,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "swiss",
+    "size": 100000,
+    "metric": "insert",
+    "value": 15.6325,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 100000,
+    "metric": "lookup_hit",
+    "value": 3.90417,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 100000,
+    "metric": "lookup_miss",
+    "value": 8.43708,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 100000,
+    "metric": "delete",
+    "value": 4.39083,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 100000,
+    "metric": "mixed",
+    "value": 11.81292,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 100000,
+    "metric": "mem_bytes_per_elem",
+    "value": 22.36496,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "builtin",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 44.313584,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 12.185083,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 12.859083,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 40.941666,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 25.218334,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "builtin",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 37.795832,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "chaining",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 33.938459,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 11.621792,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 15.615042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 12.304917,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 26.045,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "chaining",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 32.388752,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "linear",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 38.966875,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 9.92725,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 13.003541,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 6.933917,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 16.594916,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "linear",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 35.65168,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "quadratic",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 39.514042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 9.825084,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 12.587834,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 7.221666,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 17.817542,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "quadratic",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 35.65168,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "robinhood",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 64.23575,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 12.579208,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 19.944292,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 19.151208,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 26.406791,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "robinhood",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 67.108912,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 44.745541,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 11.030125,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 11.828291,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 12.577,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 19.809958,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "hopscotch",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 50.331696,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 65.734625,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 12.847917,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 18.45075,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 12.863125,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 24.277042,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "cuckoo",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 100.66336,
+    "unit": "bytes/elem"
+  },
+  {
+    "impl": "swiss",
+    "size": 1000000,
+    "metric": "insert",
+    "value": 21.682209,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 1000000,
+    "metric": "lookup_hit",
+    "value": 8.291166,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 1000000,
+    "metric": "lookup_miss",
+    "value": 3.542333,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 1000000,
+    "metric": "delete",
+    "value": 8.943625,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 1000000,
+    "metric": "mixed",
+    "value": 12.408458,
+    "unit": "ns/op"
+  },
+  {
+    "impl": "swiss",
+    "size": 1000000,
+    "metric": "mem_bytes_per_elem",
+    "value": 35.659856,
+    "unit": "bytes/elem"
+  }
+]

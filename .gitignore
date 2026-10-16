@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+*.tmp
+
+# бинарники, которые run.sh собирает под каждый toolchain
+results/raw/mapbench-*
