@@ -28,7 +28,7 @@ Safari и/или Brave. Размеры и число повторов: `SIZES=10
 |---|---|---|
 | A | встроенный `map`: Go 1.23 (бакеты), Go 1.25 с `GOEXPERIMENT=noswissmap` и без (один компилятор, разная map), Go 1.27 | `go/cmd/mapbench` |
 | B | схемы из go-hashtable-shootout (цепочки, linear, quadratic, Robin Hood, hopscotch, cuckoo, swiss) и библиотеки: dolthub/swiss, cockroachdb/swiss, tidwall/hashmap, tidwall/btree, google/btree, huandu/skiplist, plar/go-adaptive-radix-tree | `go/cmd/mapbench/impls.go` |
-| C | конкурентные карты: sync.Map, xsync, orcaman, haxmap, cornelk, плюс map+Mutex, map+RWMutex, 256 шардов на stdlib, concurrent-swiss-map; `-cpu 1,4,8,16` | `concurrent/` |
+| C | конкурентные карты: sync.Map, xsync, orcaman, haxmap, cornelk, плюс map+Mutex, map+RWMutex, 256 шардов на stdlib, concurrent-swiss-map; `-cpu 1,4,8,<число ядер>`, size 1000 и 1000000 | `concurrent/` |
 | D | `Map` и `Object` в Node и Bun | `js/` |
 | W | то же в Safari и Brave (headless), в Web Worker | `js/browser.html`, `js/server.mjs` |
 | R | исходные бенчмарки как есть: TFMV/go-map, go-hashtable-shootout | `third_party/` |

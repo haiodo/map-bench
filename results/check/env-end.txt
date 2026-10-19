@@ -1,0 +1,20 @@
+date: 2026-10-16T19:43:02Z
+host: Mac16,5
+cpu: Apple M4 Max
+cores: 16 (perf 12, eff 4)
+mem_bytes: 51539607552
+os: 26.5.2
+power: Now drawing from 'AC Power'
+powermode: powermode=2
+go1.23.12: go version go1.23.12 darwin/arm64
+go1.25.8: go version go1.25.8 darwin/arm64
+go1.27.1: go version go1.27.1 darwin/arm64
+node: v24.14.0 v8 13.6.233.17-node.41
+bun: 1.3.1
+go (фаза C): go version go1.27.1 darwin/arm64
+safari: 26.5.2
+brave: Brave Browser 155.1.97.56 
+submodules:
+   0ecb5de0789bfb82a018a5b5e4c8c7da52282606 third_party/go-concurrent-map-bench (heads/main)
+   f7f6526fbb27b6c2f213c5b4cf2f5feaf4af72aa third_party/go-hashtable-shootout (heads/main)
+   cd499b0298cfb4b7ad3db853f06c2cdd14f6531a third_party/go-map (heads/main)

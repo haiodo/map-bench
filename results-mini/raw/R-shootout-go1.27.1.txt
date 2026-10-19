@@ -1,0 +1,34 @@
+Implementations: [builtin chaining linear quadratic robinhood hopscotch cuckoo swiss]
+Sizes: [10000 100000 1000000]
+
+=== size 10000 ===
+  builtin    insert=   67.3 hit=   16.1 miss=   14.3 del=   29.6 mixed=   21.9 mem=  29.6 B/elem
+  chaining   insert=   26.1 hit=    3.4 miss=    4.2 del=    3.4 mixed=    5.1 mem=  37.1 B/elem
+  linear     insert=   22.3 hit=    3.0 miss=    4.3 del=    3.2 mixed=    4.0 mem=  27.9 B/elem
+  quadratic  insert=   17.1 hit=    2.8 miss=    4.0 del=    2.1 mixed=    4.4 mem=  27.9 B/elem
+  robinhood  insert=   16.7 hit=    2.3 miss=    2.9 del=    4.0 mixed=    3.9 mem=  52.4 B/elem
+  hopscotch  insert=   23.0 hit=    3.0 miss=    3.6 del=    3.0 mixed=    4.7 mem=  39.3 B/elem
+  cuckoo     insert=   18.8 hit=    2.1 miss=   10.0 del=    2.2 mixed=    3.0 mem=  78.6 B/elem
+  swiss      insert=   13.5 hit=    2.5 miss=    2.9 del=    2.6 mixed=    3.4 mem=  28.1 B/elem
+
+=== size 100000 ===
+  builtin    insert=   26.0 hit=    6.3 miss=   14.4 del=   21.8 mixed=   19.9 mem=  23.6 B/elem
+  chaining   insert=   26.1 hit=    6.4 miss=   10.2 del=    7.2 mixed=   15.6 mem=  34.5 B/elem
+  linear     insert=   42.8 hit=    4.7 miss=    8.2 del=    4.5 mixed=   11.9 mem=  44.6 B/elem
+  quadratic  insert=   42.3 hit=    5.2 miss=    8.3 del=    4.5 mixed=   12.9 mem=  44.6 B/elem
+  robinhood  insert=   39.5 hit=   13.7 miss=   15.9 del=   15.9 mixed=   23.5 mem=  41.9 B/elem
+  hopscotch  insert=   32.3 hit=    9.8 miss=   11.0 del=   10.7 mixed=   18.3 mem=  31.5 B/elem
+  cuckoo     insert=   31.2 hit=    5.5 miss=   12.0 del=    5.7 mixed=   15.1 mem=  62.9 B/elem
+  swiss      insert=   14.5 hit=    3.7 miss=    8.1 del=    4.0 mixed=   11.6 mem=  22.4 B/elem
+
+=== size 1000000 ===
+  builtin    insert=   44.5 hit=   17.1 miss=   14.2 del=   42.6 mixed=   29.4 mem=  37.8 B/elem
+  chaining   insert=   33.4 hit=   12.9 miss=   18.7 del=   13.3 mixed=   28.5 mem=  32.4 B/elem
+  linear     insert=   38.1 hit=   12.7 miss=   12.9 del=    7.5 mixed=   17.3 mem=  35.7 B/elem
+  quadratic  insert=   38.4 hit=   13.1 miss=   12.6 del=    7.7 mixed=   18.1 mem=  35.7 B/elem
+  robinhood  insert=   66.4 hit=   15.1 miss=   21.6 del=   21.7 mixed=   28.2 mem=  67.1 B/elem
+  hopscotch  insert=   46.0 hit=   13.9 miss=   14.2 del=   15.2 mixed=   21.7 mem=  50.3 B/elem
+  cuckoo     insert=   67.9 hit=   15.4 miss=   20.2 del=   14.6 mixed=   26.8 mem= 100.7 B/elem
+  swiss      insert=   21.5 hit=   11.8 miss=    3.5 del=   12.3 mixed=   15.0 mem=  35.7 B/elem
+
+Wrote 144 records to ../../results/raw/R-shootout-go1.27.1/{results.json,results.csv}

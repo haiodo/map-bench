@@ -2,7 +2,7 @@
 # Все фазы по порядку; отдельную фазу: ./run.sh A (или B, C, D, R).
 #   A - встроенный map Go: 1.23 (бакеты), 1.25 noswissmap и 1.25 (один компилятор), 1.27
 #   B - схемы и библиотеки на Go 1.27
-#   C - конкурентные карты (go test -bench, -cpu 1,4,8,16)
+#   C - конкурентные карты (go test -bench, -cpu 1,4,8,<ядра>, size 1000 и 1000000)
 #   D - JS: Node и Bun
 #   W - JS в браузерах: Safari и Brave (headless), через js/server.mjs
 #   R - исходные бенчмарки статей как есть (TFMV/go-map, go-hashtable-shootout)
@@ -87,9 +87,14 @@ if [[ $PHASES == *R* ]]; then
 fi
 
 if [[ $PHASES == *C* ]]; then
-  # upstream и extra - одна нагрузка; count 3 даёт разброс, benchstat сводит
-  for cpu in 1 4 8 16; do
-    (cd concurrent && go test -run '^$' -bench . -cpu $cpu -benchtime 1s -count 3 -timeout 0) >"$RAW/C-cpu$cpu.txt"
+  # upstream и extra - одна нагрузка; count 3 даёт разброс, benchstat сводит.
+  # Верхний -cpu - число ядер: больше ядер меряет переподписку, а не карту.
+  # Размеры 100 и 100000 статья не использует, а они - половина времени фазы.
+  CPUS="${CPUS:-1 4 8 $(sysctl -n hw.ncpu 2>/dev/null || nproc)}"
+  CSIZES="${CSIZES:-1000|1000000}"
+  for cpu in $CPUS; do
+    (cd concurrent && go test -run '^$' -bench "^Benchmark[^E][^/]*\$/^size=($CSIZES)\$" -cpu $cpu -benchtime 1s -count 3 -timeout 0) >"$RAW/C-cpu$cpu.txt"
+    (cd concurrent && go test -run '^$' -bench "^BenchmarkExtra_/./^size=($CSIZES)\$" -cpu $cpu -benchtime 1s -count 3 -timeout 0) >>"$RAW/C-cpu$cpu.txt"
   done
 fi
 echo "готово: $RAW"

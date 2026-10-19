@@ -1,0 +1,320 @@
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"insert","median":32.968833,"min":32.485875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"insert_hint","median":16.176791,"min":15.98925,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"lookup_hit","median":4.162375,"min":3.906833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"lookup_miss","median":5.108958,"min":5.047458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"iterate","median":5.90775,"min":5.84325,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"delete","median":17.744541,"min":17.680875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"mixed","median":19.207333,"min":19.132042,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000,"metric":"mem","median":41.128,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"insert","median":40.208375,"min":39.743791,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"insert_hint","median":18.957583,"min":18.774917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"lookup_hit","median":5.670333,"min":5.435208,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"lookup_miss","median":16.092209,"min":15.819042,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"iterate","median":5.977458,"min":5.937375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"delete","median":21.0465,"min":20.881083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"mixed","median":24.491791,"min":24.285917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000,"metric":"mem","median":57.424,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"insert","median":33.36175,"min":33.089584,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"insert_hint","median":18.905042,"min":18.788166,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"lookup_hit","median":6.887084,"min":6.640083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"lookup_miss","median":6.482084,"min":6.141041,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"iterate","median":5.73125,"min":5.670583,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"delete","median":19.813084,"min":19.511292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"mixed","median":24.328083,"min":24.118083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000,"metric":"mem","median":32.0744,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"insert","median":45.892958,"min":45.092917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"insert_hint","median":22.774791,"min":22.714666,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"lookup_hit","median":11.276291,"min":9.756166,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"lookup_miss","median":20.938083,"min":20.784333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"iterate","median":5.831125,"min":5.629334,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"delete","median":23.434833,"min":23.033834,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"mixed","median":31.884375,"min":31.603667,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000,"metric":"mem","median":45.8832,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"insert","median":31.311084,"min":30.913083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"insert_hint","median":20.1275,"min":19.967458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"lookup_hit","median":15.688042,"min":15.249083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"lookup_miss","median":8.406625,"min":8.216208,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"iterate","median":5.34575,"min":5.11525,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"delete","median":21.08525,"min":20.832708,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"mixed","median":27.988125,"min":27.767,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":100000,"metric":"mem","median":27.71768,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"insert","median":43.341084,"min":41.785792,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"insert_hint","median":24.70575,"min":24.474416,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"lookup_hit","median":19.173667,"min":18.871708,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"lookup_miss","median":24.462792,"min":24.027583,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"iterate","median":5.086625,"min":4.990833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"delete","median":25.588959,"min":25.208959,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"mixed","median":39.583875,"min":38.966167,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":100000,"metric":"mem","median":39.65392,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"insert","median":52.769917,"min":52.562209,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"insert_hint","median":29.757333,"min":29.448,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_hit","median":25.19225,"min":25.061,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_miss","median":22.45325,"min":22.338583,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"iterate","median":6.31675,"min":5.568459,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"delete","median":31.031,"min":30.625542,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"mixed","median":54.605583,"min":54.340417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":1000000,"metric":"mem","median":40.157288,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"insert","median":95.926625,"min":95.02425,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"insert_hint","median":41.716459,"min":41.500083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_hit","median":35.612,"min":34.96125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_miss","median":44.799542,"min":44.569667,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"iterate","median":6.361625,"min":5.93775,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"delete","median":46.272625,"min":45.960291,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"mixed","median":111.292959,"min":109.785875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":1000000,"metric":"mem","median":57.933904,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"insert","median":93.9000583,"min":90.117975,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"insert_hint","median":48.7767166,"min":48.7141792,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_hit","median":34.3017458,"min":34.1645208,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_miss","median":35.0872291,"min":35.0578834,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"iterate","median":6.2959375,"min":5.9301166,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"delete","median":44.9719167,"min":44.9540375,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"mixed","median":82.1733333,"min":82.019325,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"int","n":10000000,"metric":"mem","median":32.1822824,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"insert","median":139.3238666,"min":136.1575708,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"insert_hint","median":57.521475,"min":57.4765125,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_hit","median":46.7775041,"min":46.6777208,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_miss","median":62.1428375,"min":62.08515,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"iterate","median":7.0920459,"min":6.9051458,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"delete","median":64.0379708,"min":63.6043667,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"mixed","median":160.2053459,"min":159.6169333,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.23.12","impl":"go/map","keys":"str","n":10000000,"metric":"mem","median":46.3470688,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"insert","median":32.281125,"min":32.056709,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"insert_hint","median":16.042917,"min":15.884667,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"lookup_hit","median":4.233792,"min":3.962625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"lookup_miss","median":5.106166,"min":5.02975,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"iterate","median":6.262709,"min":5.675541,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"delete","median":18.199958,"min":17.941833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"mixed","median":19.209709,"min":19.054167,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000,"metric":"mem","median":41.096,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"insert","median":39.603833,"min":39.289333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"insert_hint","median":18.335458,"min":18.069042,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"lookup_hit","median":5.678209,"min":5.496083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"lookup_miss","median":16.232792,"min":16.049,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"iterate","median":6.021375,"min":5.956625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"delete","median":20.547666,"min":20.165333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"mixed","median":25.56075,"min":25.122125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000,"metric":"mem","median":57.44,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"insert","median":33.14825,"min":32.460459,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"insert_hint","median":18.43925,"min":18.330625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"lookup_hit","median":7.992833,"min":6.929417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"lookup_miss","median":5.977417,"min":5.941708,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"iterate","median":5.829958,"min":5.787625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"delete","median":20.192792,"min":19.983292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"mixed","median":24.390291,"min":24.148875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000,"metric":"mem","median":32.076,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"insert","median":45.261209,"min":44.985916,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"insert_hint","median":22.1735,"min":22.077125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"lookup_hit","median":11.810542,"min":9.959,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"lookup_miss","median":21.533625,"min":21.374834,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"iterate","median":5.862333,"min":5.739833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"delete","median":23.4245,"min":22.739542,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"mixed","median":32.430958,"min":32.134,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000,"metric":"mem","median":45.8848,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"insert","median":32.432459,"min":31.31375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"insert_hint","median":20.469292,"min":20.154792,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"lookup_hit","median":16.084958,"min":15.843666,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"lookup_miss","median":8.462666,"min":8.303916,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"iterate","median":5.540917,"min":5.414417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"delete","median":21.330959,"min":21.093958,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"mixed","median":27.750083,"min":27.503791,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":100000,"metric":"mem","median":27.66744,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"insert","median":42.876667,"min":42.396583,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"insert_hint","median":23.839791,"min":23.461458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"lookup_hit","median":19.606083,"min":19.257,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"lookup_miss","median":25.108791,"min":24.82625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"iterate","median":5.516,"min":5.371084,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"delete","median":25.355125,"min":25.11975,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"mixed","median":40.834167,"min":39.8525,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":100000,"metric":"mem","median":39.808,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"insert","median":53.937041,"min":52.84425,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"insert_hint","median":29.352417,"min":29.119791,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_hit","median":25.706791,"min":25.476458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_miss","median":22.370958,"min":21.950417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"iterate","median":6.604625,"min":5.88725,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"delete","median":31.770209,"min":31.55,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"mixed","median":53.717875,"min":53.192417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":1000000,"metric":"mem","median":40.157304,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"insert","median":94.891625,"min":94.233375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"insert_hint","median":36.066417,"min":35.752875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_hit","median":34.24825,"min":34.053458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_miss","median":44.647,"min":44.369125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"iterate","median":6.471292,"min":6.222125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"delete","median":41.247542,"min":40.822417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"mixed","median":109.287291,"min":108.566125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":1000000,"metric":"mem","median":57.93392,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"insert","median":91.2425667,"min":89.7050125,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"insert_hint","median":48.0697792,"min":47.7783167,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_hit","median":33.8833,"min":33.8666459,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_miss","median":34.5771917,"min":34.3956792,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"iterate","median":6.2210209,"min":6.1059875,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"delete","median":45.3467875,"min":45.1014125,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"mixed","median":82.6233833,"min":80.8573041,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"int","n":10000000,"metric":"mem","median":32.1822856,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"insert","median":139.8245375,"min":134.6467208,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"insert_hint","median":49.7504084,"min":49.6670667,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_hit","median":45.8222709,"min":45.654525,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_miss","median":62.1640667,"min":62.1577542,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"iterate","median":6.8278875,"min":6.8263583,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"delete","median":56.0552667,"min":55.7498667,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"mixed","median":160.2765959,"min":159.6398083,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8 X:noswissmap","impl":"go/map","keys":"str","n":10000000,"metric":"mem","median":46.3470688,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"insert","median":30.402375,"min":29.954458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"insert_hint","median":8.285375,"min":8.214375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"lookup_hit","median":4.199,"min":4.174917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"lookup_miss","median":4.49325,"min":4.446292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"iterate","median":5.651125,"min":5.513875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"delete","median":16.705542,"min":16.613625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"mixed","median":11.25125,"min":11.191,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000,"metric":"mem","median":37,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"insert","median":36.632292,"min":36.582417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"insert_hint","median":11.101875,"min":10.897,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"lookup_hit","median":6.489875,"min":6.432125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"lookup_miss","median":6.212125,"min":6.056375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"iterate","median":5.63475,"min":5.46,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"delete","median":22.075,"min":21.545416,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"mixed","median":16.464708,"min":16.223875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000,"metric":"mem","median":54.664,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"insert","median":28.963125,"min":28.493417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"insert_hint","median":11.160792,"min":10.84025,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"lookup_hit","median":5.389083,"min":5.099375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"lookup_miss","median":6.411167,"min":6.221875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"iterate","median":5.327042,"min":5.125583,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"delete","median":20.259208,"min":19.943375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"mixed","median":15.730875,"min":15.141333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000,"metric":"mem","median":29.5608,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"insert","median":43.419083,"min":43.185333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"insert_hint","median":16.755708,"min":16.415291,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"lookup_hit","median":7.908,"min":7.809834,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"lookup_miss","median":8.801875,"min":8.730833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"iterate","median":5.19275,"min":5.010167,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"delete","median":25.307916,"min":24.978459,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"mixed","median":22.364,"min":21.5835,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000,"metric":"mem","median":43.692,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"insert","median":27.641375,"min":27.005875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"insert_hint","median":13.068125,"min":12.681292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"lookup_hit","median":6.583167,"min":6.389084,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"lookup_miss","median":15.572791,"min":15.258875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"iterate","median":4.544834,"min":4.398459,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"delete","median":23.701792,"min":23.578083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"mixed","median":20.853666,"min":20.521875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":100000,"metric":"mem","median":23.646,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"insert","median":39.329208,"min":38.655875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"insert_hint","median":17.168084,"min":16.645416,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"lookup_hit","median":9.685292,"min":9.589791,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"lookup_miss","median":17.952834,"min":17.644208,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"iterate","median":4.492292,"min":4.373167,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"delete","median":29.186208,"min":28.944333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"mixed","median":30.314792,"min":29.851833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":100000,"metric":"mem","median":34.95096,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"insert","median":43.220041,"min":42.548834,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"insert_hint","median":36.982833,"min":36.847,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_hit","median":19.138416,"min":18.825417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_miss","median":15.720167,"min":15.393333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"iterate","median":6.448083,"min":5.980667,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"delete","median":53.90175,"min":53.631958,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"mixed","median":53.057417,"min":52.824292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":1000000,"metric":"mem","median":37.740536,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"insert","median":97.885875,"min":92.92825,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"insert_hint","median":53.950917,"min":53.728458,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_hit","median":29.877666,"min":29.701625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_miss","median":24.709709,"min":24.419708,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"iterate","median":6.779125,"min":6.574,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"delete","median":72.015209,"min":71.137917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"mixed","median":108.005667,"min":107.647,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":1000000,"metric":"mem","median":55.702328,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"insert","median":92.8838959,"min":90.376825,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"insert_hint","median":87.49265,"min":87.0464375,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_hit","median":30.1113583,"min":30.084025,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_miss","median":27.4443708,"min":27.0171,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"iterate","median":5.8418042,"min":5.8091583,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"delete","median":121.446,"min":120.9802875,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"mixed","median":85.6317875,"min":85.5952458,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"int","n":10000000,"metric":"mem","median":30.2645304,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"insert","median":146.8456375,"min":145.6291709,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"insert_hint","median":112.0395042,"min":111.0025667,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_hit","median":40.0518084,"min":39.8667458,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_miss","median":39.5992833,"min":39.5749958,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"iterate","median":6.076775,"min":6.0425083,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"delete","median":114.4143166,"min":114.3090208,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"mixed","median":136.3497833,"min":136.2872709,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.25.8","impl":"go/map","keys":"str","n":10000000,"metric":"mem","median":44.7348792,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"insert","median":30.354042,"min":30.068958,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"insert_hint","median":6.974084,"min":6.929708,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"lookup_hit","median":4.008959,"min":3.973084,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"lookup_miss","median":4.402041,"min":4.350916,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"iterate","median":5.235083,"min":5.016833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"delete","median":16.58625,"min":16.102792,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"mixed","median":10.86925,"min":10.623209,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000,"metric":"mem","median":37,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"insert","median":35.863625,"min":35.531334,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"insert_hint","median":9.605167,"min":9.466209,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"lookup_hit","median":5.71125,"min":5.678125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"lookup_miss","median":5.398,"min":5.366333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"iterate","median":5.1705,"min":4.973375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"delete","median":22.673875,"min":22.237459,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"mixed","median":15.326917,"min":15.21725,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000,"metric":"mem","median":54.664,"min":0,"unit":"B/elem","ops":1000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"insert","median":29.0495,"min":28.710333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"insert_hint","median":9.368,"min":9.135958,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"lookup_hit","median":5.201708,"min":5.084625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"lookup_miss","median":6.259042,"min":6.111375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"iterate","median":4.92475,"min":4.855042,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"delete","median":19.110541,"min":18.557667,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"mixed","median":15.609083,"min":15.425084,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000,"metric":"mem","median":29.5608,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"insert","median":40.79925,"min":40.372292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"insert_hint","median":13.968167,"min":13.852042,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"lookup_hit","median":7.386458,"min":7.331375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"lookup_miss","median":7.577167,"min":7.45825,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"iterate","median":5.01625,"min":4.856917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"delete","median":25.5395,"min":24.904459,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"mixed","median":21.548625,"min":21.151875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000,"metric":"mem","median":43.692,"min":0,"unit":"B/elem","ops":10000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"insert","median":26.681125,"min":26.432792,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"insert_hint","median":10.708,"min":10.326208,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"lookup_hit","median":6.416542,"min":6.186625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"lookup_miss","median":14.560042,"min":14.321917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"iterate","median":4.217708,"min":4.123583,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"delete","median":22.4495,"min":21.879792,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"mixed","median":20.986292,"min":20.956375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":100000,"metric":"mem","median":23.646,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"insert","median":35.588708,"min":35.193167,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"insert_hint","median":13.196,"min":13.0655,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"lookup_hit","median":9.044167,"min":8.866917,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"lookup_miss","median":16.9285,"min":16.776292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"iterate","median":4.238084,"min":4.116709,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"delete","median":29.40225,"min":28.69,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"mixed","median":29.8755,"min":29.528,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":100000,"metric":"mem","median":34.95096,"min":0,"unit":"B/elem","ops":100000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"insert","median":43.118125,"min":42.421334,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"insert_hint","median":32.65125,"min":31.933083,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_hit","median":18.676,"min":18.206167,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_miss","median":14.806083,"min":14.693875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"iterate","median":6.250083,"min":6.108958,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"delete","median":50.375667,"min":49.607625,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"mixed","median":52.629417,"min":52.572333,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"mem","median":37.795832,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"insert","median":85.562125,"min":84.276041,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"insert_hint","median":45.008709,"min":44.8685,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_hit","median":29.475375,"min":29.377,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_miss","median":22.502583,"min":22.244709,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"iterate","median":6.759583,"min":6.518875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"delete","median":72.413375,"min":71.696667,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"mixed","median":105.238042,"min":104.68725,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"mem","median":55.838808,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"insert","median":89.012575,"min":86.7917875,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"insert_hint","median":79.0565666,"min":78.8625708,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_hit","median":29.1949833,"min":28.9760292,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"lookup_miss","median":25.8045709,"min":25.759225,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"iterate","median":5.6119708,"min":5.59765,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"delete","median":107.7648458,"min":107.5051959,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"mixed","median":84.4711458,"min":84.304775,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":10000000,"metric":"mem","median":30.2645304,"min":0,"unit":"B/elem","ops":10000000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"insert","median":124.2579083,"min":122.1759792,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"insert_hint","median":81.9960875,"min":81.9498084,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_hit","median":39.151225,"min":39.0323833,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"lookup_miss","median":35.2899667,"min":35.2038542,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"iterate","median":6.0384416,"min":5.9904291,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"delete","median":116.0202334,"min":115.9401709,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"mixed","median":130.6371167,"min":130.5881708,"unit":"ns/op","ops":10000000,"reps":3}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":10000000,"metric":"mem","median":44.7354112,"min":0,"unit":"B/elem","ops":10000000,"reps":1}

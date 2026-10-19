@@ -11,7 +11,8 @@ mkdir -p results
   echo "mem_bytes: $(sysctl -n hw.memsize 2>/dev/null)"
   echo "os: $(sw_vers -productVersion 2>/dev/null || uname -sr)"
   echo "power: $(pmset -g batt 2>/dev/null | head -1)"
-  echo "lowpower: $(pmset -g 2>/dev/null | awk '/lowpowermode/ {print $2}')"
+  # Energy Mode: 0 - Automatic, 1 - Low Power, 2 - High Power (на старых macOS - lowpowermode 0/1)
+  echo "powermode: $(pmset -g 2>/dev/null | awk '/ powermode|lowpowermode/ {print $1 "=" $2}')"
   for v in 1.23.12 1.25.8 1.27.1; do echo "go$v: $(GOTOOLCHAIN=go$v go version 2>/dev/null)"; done
   echo "node: $(node --version 2>/dev/null) v8 $(node -p process.versions.v8 2>/dev/null)"
   echo "bun: $(bun --version 2>/dev/null)"

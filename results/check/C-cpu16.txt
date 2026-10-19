@@ -1,0 +1,108 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/haiodo/map-bench/concurrent
+cpu: Apple M4 Max
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=100%-16         	100000000	        12.01 ns/op	  83256015 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=100%-16         	98442693	        11.79 ns/op	  84838397 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=100%-16         	98879024	        11.84 ns/op	  84425850 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=99%-16          	98296198	        11.52 ns/op	  86842072 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=99%-16          	99407695	        11.59 ns/op	  86301740 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=99%-16          	100000000	        11.31 ns/op	  88393704 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=90%-16          	100000000	        10.46 ns/op	  95603902 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=90%-16          	120493052	         9.862 ns/op	 101402178 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=90%-16          	121227988	         9.899 ns/op	 101024358 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=75%-16          	93364020	        11.28 ns/op	  88657753 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=75%-16          	92787093	        11.30 ns/op	  88502165 ops/s
+BenchmarkSyncMap_WarmUp_IntKeys/size=1000000/reads=75%-16          	94237138	        11.32 ns/op	  88372696 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=100%-16      	385538554	         3.099 ns/op	 322662001 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=100%-16      	382890484	         3.094 ns/op	 323211728 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=100%-16      	387020409	         3.104 ns/op	 322184419 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=99%-16       	357926931	         3.527 ns/op	 283542339 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=99%-16       	329197146	         3.767 ns/op	 265496156 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=99%-16       	329476587	         3.756 ns/op	 266215929 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=90%-16       	307005120	         3.888 ns/op	 257233170 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=90%-16       	305502060	         3.928 ns/op	 254596799 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=90%-16       	306288876	         3.876 ns/op	 257976074 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=75%-16       	262029163	         4.568 ns/op	 218934833 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=75%-16       	261265604	         4.584 ns/op	 218139384 ops/s
+BenchmarkXsyncMapOf_WarmUp_IntKeys/size=1000000/reads=75%-16       	259320781	         4.586 ns/op	 218076438 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=100%-16          	202554692	         5.885 ns/op	 169927275 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=100%-16          	204790766	         5.898 ns/op	 169551763 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=100%-16          	204223120	         5.642 ns/op	 177247376 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=99%-16           	180397358	         7.011 ns/op	 142625497 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=99%-16           	181415562	         6.913 ns/op	 144651748 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=99%-16           	167763722	         7.551 ns/op	 132441053 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=90%-16           	100000000	        11.41 ns/op	  87612386 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=90%-16           	100000000	        10.09 ns/op	  99079216 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=90%-16           	100000000	        11.61 ns/op	  86107338 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=75%-16           	73602134	        17.91 ns/op	  55844576 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=75%-16           	86148876	        16.00 ns/op	  62510857 ops/s
+BenchmarkHaxmap_WarmUp_IntKeys/size=1000000/reads=75%-16           	87662157	        16.00 ns/op	  62480847 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=100%-16     	62724189	        19.33 ns/op	  51728225 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=100%-16     	61384081	        19.25 ns/op	  51950522 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=100%-16     	61340676	        19.30 ns/op	  51802979 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=99%-16      	45187315	        26.06 ns/op	  38371135 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=99%-16      	45809394	        25.29 ns/op	  39543950 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=99%-16      	46131296	        25.91 ns/op	  38591041 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=90%-16      	38524305	        33.02 ns/op	  30281216 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=90%-16      	39126660	        33.39 ns/op	  29951440 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=90%-16      	35393487	        33.26 ns/op	  30067678 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=75%-16      	31812552	        36.89 ns/op	  27107145 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=75%-16      	30989767	        42.63 ns/op	  23458668 ops/s
+BenchmarkOrcamanCmap_WarmUp_IntKeys/size=1000000/reads=75%-16      	30422908	        42.29 ns/op	  23648681 ops/s
+PASS
+ok  	github.com/haiodo/map-bench/concurrent	94.224s
+goos: darwin
+goarch: arm64
+pkg: github.com/haiodo/map-bench/concurrent
+cpu: Apple M4 Max
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=100%-16         	 5828468	       216.9 ns/op	   4610760 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=100%-16         	 5897577	       213.6 ns/op	   4680934 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=100%-16         	 5848780	       215.8 ns/op	   4633788 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=99%-16          	 5863876	       217.7 ns/op	   4592629 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=99%-16          	 5737662	       219.9 ns/op	   4548442 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=99%-16          	 5653993	       217.0 ns/op	   4609023 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=90%-16          	 5425344	       225.8 ns/op	   4429639 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=90%-16          	 5478150	       226.5 ns/op	   4415709 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=90%-16          	 5404657	       222.3 ns/op	   4499412 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=75%-16          	 5307694	       229.9 ns/op	   4349037 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=75%-16          	 5372233	       231.0 ns/op	   4329867 ops/s
+BenchmarkExtra_WarmUp_IntKeys/MutexMap/size=1000000/reads=75%-16          	 5354727	       230.1 ns/op	   4345764 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=100%-16       	10100216	       124.6 ns/op	   8024851 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=100%-16       	 9935251	       125.7 ns/op	   7953282 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=100%-16       	 9397198	       124.9 ns/op	   8006012 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=99%-16        	11533207	       100.4 ns/op	   9957685 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=99%-16        	11955301	       105.6 ns/op	   9467996 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=99%-16        	11340256	       107.1 ns/op	   9339883 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=90%-16        	10883468	       113.2 ns/op	   8837692 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=90%-16        	11414158	       113.1 ns/op	   8841662 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=90%-16        	10481199	       112.3 ns/op	   8903686 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=75%-16        	11161968	       107.5 ns/op	   9303246 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=75%-16        	10902680	       108.2 ns/op	   9246153 ops/s
+BenchmarkExtra_WarmUp_IntKeys/RWMutexMap/size=1000000/reads=75%-16        	11026839	       103.8 ns/op	   9632338 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=100%-16    	167048790	         7.245 ns/op	 138032619 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=100%-16    	172150300	         7.070 ns/op	 141447306 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=100%-16    	170902243	         7.033 ns/op	 142192366 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=99%-16     	135223183	         8.656 ns/op	 115524754 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=99%-16     	139088331	         8.668 ns/op	 115367739 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=99%-16     	139559360	         8.395 ns/op	 119113820 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=90%-16     	81916854	        14.93 ns/op	  66994935 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=90%-16     	86291097	        13.89 ns/op	  71990096 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=90%-16     	82129665	        14.61 ns/op	  68435668 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=75%-16     	64925985	        18.63 ns/op	  53673189 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=75%-16     	65688488	        18.54 ns/op	  53947458 ops/s
+BenchmarkExtra_WarmUp_IntKeys/ShardedMap256/size=1000000/reads=75%-16     	64216053	        18.92 ns/op	  52840396 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=100%-16        	45830314	        25.58 ns/op	  39088445 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=100%-16        	45127270	        26.32 ns/op	  37991517 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=100%-16        	45813548	        26.29 ns/op	  38031673 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=99%-16         	36610898	        32.02 ns/op	  31233694 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=99%-16         	37816118	        31.60 ns/op	  31649490 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=99%-16         	38055570	        33.17 ns/op	  30149680 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=90%-16         	28410660	        42.90 ns/op	  23311910 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=90%-16         	28771946	        40.55 ns/op	  24660387 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=90%-16         	30349172	        39.42 ns/op	  25367750 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=75%-16         	29263296	        40.15 ns/op	  24903638 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=75%-16         	30061531	        40.40 ns/op	  24753219 ops/s
+BenchmarkExtra_WarmUp_IntKeys/CSwissMap/size=1000000/reads=75%-16         	27077365	        40.09 ns/op	  24944414 ops/s
+PASS
+ok  	github.com/haiodo/map-bench/concurrent	78.541s
