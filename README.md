@@ -10,7 +10,9 @@
 > same keys (mulberry32) and the same operation stream, so the numbers are comparable.
 
 Находки и выводы - в [FINDINGS.md](FINDINGS.md), сводные таблицы - в
-[results/tables.md](results/tables.md), окружение прогона - в [results/env.txt](results/env.txt).
+[results-mini/tables.md](results-mini/tables.md), окружение прогона - в [results-mini/env.txt](results-mini/env.txt)
+(Mac mini M4 Pro, High Power). В `results/` - первый прогон на M4 Max в режиме Automatic, его цифры
+искажены, и выборочная перепроверка в High Power (`results/check/`).
 
 ## Запуск
 
