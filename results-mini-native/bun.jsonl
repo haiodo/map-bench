@@ -1,0 +1,14 @@
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"insert","median":39.86312500000008,"min":38.07012499999996,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"lookup_hit","median":17.641250000000127,"min":16.452249999999935,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"lookup_miss","median":19.463875000000144,"min":18.45191600000021,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"iterate","median":3.9939999999999145,"min":3.909874999999829,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"delete","median":49.24779200000012,"min":47.29908299999988,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"mixed","median":151.57445800000005,"min":146.9285410000002,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"int","n":1000000,"metric":"mem","median":54.526841,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"insert","median":113.82491699999991,"min":109.68208300000015,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"lookup_hit","median":50.90758300000016,"min":46.95120800000041,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"lookup_miss","median":68.85895800000026,"min":64.65720800000008,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"iterate","median":3.916374999999789,"min":3.9079589999996642,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"delete","median":84.25724999999966,"min":77.57437500000015,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"mixed","median":141.0495839999994,"min":134.36391699999967,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"bun 1.4.3","impl":"js/Map","keys":"str","n":1000000,"metric":"mem","median":54.526841,"min":0,"unit":"B/elem","ops":1000000,"reps":1}

@@ -1,0 +1,16 @@
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"insert","median":66.052334,"min":65.143125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"insert_hint","median":52.408083,"min":42.768292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_hit","median":28.784541,"min":26.270125,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"lookup_miss","median":22.494709,"min":22.232959,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"iterate","median":10.584042,"min":10.157875,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"delete","median":87.611833,"min":86.760292,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"mixed","median":87.051958,"min":85.265375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"int","n":1000000,"metric":"mem","median":37.703512,"min":0,"unit":"B/elem","ops":1000000,"reps":1}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"insert","median":170.191375,"min":150.102208,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"insert_hint","median":75.066958,"min":74.82775,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_hit","median":44.536334,"min":44.431375,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"lookup_miss","median":33.498292,"min":32.626833,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"iterate","median":10.605709,"min":10.391417,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"delete","median":116.014625,"min":105.705709,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"mixed","median":149.764583,"min":146.76675,"unit":"ns/op","ops":1000000,"reps":7}
+{"runtime":"go1.27.1","impl":"go/map","keys":"str","n":1000000,"metric":"mem","median":55.838808,"min":0,"unit":"B/elem","ops":1000000,"reps":1}

@@ -14,6 +14,14 @@
 (Mac mini M4 Pro, High Power). В `results/` - первый прогон на M4 Max в режиме Automatic, его цифры
 искажены, и выборочная перепроверка в High Power (`results/check/`).
 
+Отдельный прогон Rust HashMap, C uthash и C++ std::unordered_map использует тот же поток ключей и операций. На Mac mini M4 Pro с powermode 0 собраны [первичные замеры](results-mini-native/samples.csv) и контрольные прогоны [Go](results-mini-native/go.jsonl) и [Bun](results-mini-native/bun.jsonl). Команда из корня репозитория:
+
+```sh
+./native/run.sh > reproduction.csv
+```
+
+Версии компиляторов, контрольные суммы и команды для Go и Bun приведены в [методике](native/README.md).
+
 ## Запуск
 
 ```bash
@@ -75,5 +83,7 @@ Safari и/или Brave. Размеры и число повторов: `SIZES=10
 | `third_party/go-hashtable-shootout` | [TKTHdev/go-hashtable-shootout](https://github.com/TKTHdev/go-hashtable-shootout) | не указана - подключён submodule, код не копируется |
 | `third_party/go-concurrent-map-bench`, `concurrent/upstream_bench_test.go` | [puzpuzpuz/go-concurrent-map-bench](https://github.com/puzpuzpuz/go-concurrent-map-bench) | Apache-2.0, `concurrent/LICENSE.upstream` |
 | `third_party/go-map` | [TFMV/go-map](https://github.com/TFMV/go-map) | MIT |
+
+Заголовок [native/uthash.h](native/uthash.h) из uthash 2.3.0 распространяется под лицензией BSD, приведенной в самом файле.
 
 Остальной код - MIT, см. [LICENSE](LICENSE).
